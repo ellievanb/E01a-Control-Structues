@@ -1,25 +1,25 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect it to open up python 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
+It added another line that described a place in the computer (assuming where my answer was saved?).
 What do you think the program did with what you typed?
-
+I think the program saved my answer - green - as an output in relation to the input, or the question.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+It has a new factor called color
 What do you think the color = input() will do? 
-
+if color = input() then when color is printed what is in the input - what is your favorite color? will be printed
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+it has an if/else function
 What is happening on lines 11–14? 
-
+there is an if/else function
 Why are lines 12 and 14 indented? 
-
+lines 12 and 14 are a result of lines 11 and 13, respectively, so they are indented
 Run the program and answer the question. What happens if you don’t capitalize Red? 
 
 What does this tell you about "color"?
@@ -27,9 +27,9 @@ What does this tell you about "color"?
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+It is different because of the if/else function, but has two different inputs to get the if output
 What problem is this trying to solve? 
-
+its trying to give the right answer as red regardless of whether or not the user capitalizes the r in red
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
 
 
