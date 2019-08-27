@@ -11,7 +11,7 @@ It has a new factor called color
 What do you think the color = input() will do? 
 if color = input() then when color is printed what is in the input - what is your favorite color? will be printed
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+No, it instead added a new line that listed a location in my computer.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
@@ -21,9 +21,9 @@ there is an if/else function
 Why are lines 12 and 14 indented? 
 lines 12 and 14 are a result of lines 11 and 13, respectively, so they are indented
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+It will tell you "sorry, try again"
 What does this tell you about "color"?
-
+The output to the input question is Red because color == "Red"
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
@@ -31,49 +31,49 @@ It is different because of the if/else function, but has two different inputs to
 What problem is this trying to solve? 
 its trying to give the right answer as red regardless of whether or not the user capitalizes the r in red
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+It tells you "sorry, try again".
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I would guess that line 11 means regardless of uppercase or lowercase on any of the letters in 'red' as long as you type the word out it will tell you it is correct
 What problem is it trying to solve? 
-
+It is trying to solve the case sensitivty of the answer
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+It says "sorry, try again"
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+It's added the .strip
 What would you guess .strip() is doing? 
-
+I'm guessing that it allows there to be spaces without out it changing the correctness of the answer
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+If the user puts a period anywhere in the answer, it will register it as incorrect
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+Now, if you put in the answer pink it won't tell you "sorry, try again", it instead will then tell you you're close
 What is the purpose of line 11? 
-
+It allows the answer to be written with lowercase or uppercase and still register the same answer
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+Line 11 allows the question to be asked repeatedly until the right answer is found.
 Why are lines 12–19 indented? 
-
+Lines 12-19 are indented because they contain everything included in the loop.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+Then the program wouldn't work
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
-
+Line 12 is the creation of the loop.
 What is the purpose of “count”? 
-
+It counts how many tries it takes you to get the right answer.
 What is happening on line 22? 
-
+Line 22 tells you how many tries it takes you to get the right answer
 Run the program.
 
 
@@ -82,3 +82,4 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+Yes
